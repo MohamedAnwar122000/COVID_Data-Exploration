@@ -11,16 +11,6 @@ The project uses two primary datasets:
 
 These datasets enable analysis of infection and mortality rates as well as vaccination coverage.
 
-## Approach
-The project employs various SQL techniques, including:
-
-- **Joins**: To combine data from the deaths and vaccinations datasets.
-- **CTEs (Common Table Expressions)**: For organizing complex calculations and partitioned aggregates.
-- **Window Functions**: To calculate rolling totals, such as cumulative vaccinations per country.
-- **Aggregate Functions**: For summarizing data, such as maximum infection and death counts by country or continent.
-- **Views**: To store intermediary results, making it easier to create visualizations later.
-- **Data Type Conversion**: Necessary to handle text-based data fields and enable numerical calculations.
-
 ## Questions Answered
 
 1. **What is the likelihood of dying if infected by COVID-19 in a specific country?**
