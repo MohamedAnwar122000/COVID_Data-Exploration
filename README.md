@@ -9,7 +9,6 @@ The project uses two primary datasets:
 1. **CovidDeaths**: Records of COVID-19 cases, deaths, and population data by country, date, and continent.
 2. **CovidVaccinations**: Data on new vaccinations administered by country and date.
 
-These datasets enable analysis of infection and mortality rates as well as vaccination coverage.
 
 ## Questions Answered
 
@@ -35,4 +34,3 @@ These datasets enable analysis of infection and mortality rates as well as vacci
 - **Views** for reusable data preparation
 - **Data Type Conversion** to handle numeric operations on text-based fields
 
-This structure enables a comprehensive exploration of COVID-19's spread, severity, and vaccination progress globally and by region.
